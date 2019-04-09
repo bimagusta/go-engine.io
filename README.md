@@ -2,7 +2,7 @@
 
 [![GoDoc](http://godoc.org/github.com/googollee/go-engine.io?status.svg)](http://godoc.org/github.com/googollee/go-engine.io) [![Build Status](https://travis-ci.org/googollee/go-engine.io.svg)](https://travis-ci.org/googollee/go-engine.io)
 
-go-engine.io is the implement of engine.io in golang, which is transport-based cross-browser/cross-device bi-directional communication layer for [go-socket.io](https://github.com/googollee/go-socket.io).
+go-engine.io is the implement of engine.io in golang, which is transport-based cross-browser/cross-device bi-directional communication layer for [go-socket.io](https://github.com/bimagusta/go-socket.io).
 
 It is compatible with node.js implement, and supported long-polling and websocket transport.
 
@@ -11,13 +11,13 @@ It is compatible with node.js implement, and supported long-polling and websocke
 Install the package with:
 
 ```bash
-go get github.com/googollee/go-engine.io
+go get github.com/bimagusta/go-engine.io
 ```
 
 Import it with:
 
 ```go
-import "github.com/googollee/go-engine.io"
+import "github.com/bimagusta/go-engine.io"
 ```
 
 and use `engineio` as the package name inside the code.
@@ -35,7 +35,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/googollee/go-engine.io"
+	"github.com/bimagusta/go-engine.io"
 )
 
 func main() {
