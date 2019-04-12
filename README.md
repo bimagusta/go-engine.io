@@ -72,7 +72,3 @@ func main() {
 	log.Fatal(http.ListenAndServe(":5000", nil))
 }
 ```
-
-## License
-
-The 3-clause BSD License  - see LICENSE for more details
