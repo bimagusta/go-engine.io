@@ -1,9 +1,10 @@
 package engineio
 
 import (
-	"github.com/googollee/go-engine.io/parser"
 	"io"
 	"sync"
+
+	"github.com/bimagusta/go-engine.io/parser"
 )
 
 type connReader struct {

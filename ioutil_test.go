@@ -2,11 +2,12 @@ package engineio
 
 import (
 	"bytes"
-	"github.com/googollee/go-engine.io/parser"
 	"io"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/bimagusta/go-engine.io/parser"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
