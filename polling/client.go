@@ -10,10 +10,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/googollee/go-engine.io/message"
+	"github.com/bimagusta/go-engine.io/message"
 
-	"github.com/googollee/go-engine.io/parser"
-	"github.com/googollee/go-engine.io/transport"
+	"github.com/bimagusta/go-engine.io/parser"
+	"github.com/bimagusta/go-engine.io/transport"
 )
 
 type client struct {
