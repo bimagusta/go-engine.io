@@ -1,5 +1,7 @@
 module github.com/iam-bgst/go-engine.io
 
+go 1.15
+
 require (
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
 	github.com/gorilla/websocket v1.4.0

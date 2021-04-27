@@ -5,10 +5,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bimagusta/go-engine.io/message"
-	"github.com/bimagusta/go-engine.io/parser"
-	"github.com/bimagusta/go-engine.io/transport"
 	"github.com/gorilla/websocket"
+	"github.com/iam-bgst/go-engine.io/message"
+	"github.com/iam-bgst/go-engine.io/parser"
+	"github.com/iam-bgst/go-engine.io/transport"
 )
 
 type client struct {
