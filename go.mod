@@ -1,4 +1,4 @@
-module github.com/bimagusta/go-engine.io
+module github.com/iam-bgst/go-engine.io
 
 require (
 	github.com/gopherjs/gopherjs v0.0.0-20181103185306-d547d1d9531e // indirect
